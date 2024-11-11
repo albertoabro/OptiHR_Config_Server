@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/albertoabro/OptiHR.git
+          uri: https://github.com/albertoabro/OptiHR_Config_Server.git
           clone-on-start: true
           default-label: main
 
