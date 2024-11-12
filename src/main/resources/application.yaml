@@ -3,13 +3,13 @@ spring:
     name: config-server
 
   profiles:
-    active: git
+     active: git
 
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/albertoabro/OptiHR_Config_Server.git
+          uri: https://github.com/albertoabro/OptiHR_Config_Data.git
           clone-on-start: true
           default-label: main
 
